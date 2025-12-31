@@ -1,0 +1,104 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Split screen */
+.split {
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #f2f2f2;
+}
+
+.right {
+    right: 0;
+    background-color: #ffffff;
+}
+
+/* Center content */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* ✅ FIXED */
+    text-align: center;
+}
+
+/* Image */
+.centered img {
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Card */
+.sentiment-card {
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    background-color: white;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Sentiment colors */
+.positive {
+    color: #28a745;
+    font-weight: 600;
+}
+
+.negative {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+/* Button */
+.btn-submit {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Comment link */
+.comments {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+}
