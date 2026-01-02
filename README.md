@@ -13,25 +13,25 @@
 
 6.Develop and train multiple machine learning models, including:
 
-     - Logistic Regression
+     -  Logistic Regression
 
-     - Naive Bayes
+     -  Naive Bayes
 
-     - Decision Tree
+     -  Decision Tree
 
-     - Random Forest
+     -  Random Forest
 
-     - Support Vector Machine (SVM)
+     -  Support Vector Machine (SVM)
 
 7.Evaluate model performance using key metrics:
 
-     - Accuracy
+     -  Accuracy
 
-     - Precision
+     -  Precision
 
-     - Recall
+     -  Recall
 
-     - F1-score
+     -  F1-score
 
 8.Design a complete prediction pipeline for sentiment classification
 
