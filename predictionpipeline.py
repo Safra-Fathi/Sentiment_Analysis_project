@@ -8,15 +8,15 @@ from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 
 #load model
-with open ('/static/model/model.pickle','rb')as f:
+with open ('static/model/model.pickle','rb')as f:
  model = pickle.load (f) 
 
 #load stopword
- with open ('../static/model/corpora/stopwords/english','r') as file:
+ with open ('static/model/corpora/stopwords/english','r') as file:
     sw = file.read().splitlines()
 
 #load tokens
-vocab = pd.read_csv('../static/model/vocabulary.text',header = None)
+vocab = pd.read_csv('static/model/vocabulary.text',header = None)
 tokens = vocab[0].tolist()
 
 def remove_punctuations(text):
